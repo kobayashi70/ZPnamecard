@@ -1,0 +1,161 @@
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 80px;
+  background-image: linear-gradient(to right, #FCB921, #FA9158);
+  padding: 0 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow:1px 2px 3px #808080;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #333;
+}
+
+button {
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 30px;
+  border-color: #333;
+  padding: 0px 48px;
+  margin-right: 12px;
+}
+
+span {
+  margin-left: 12px;
+}
+
+.container {
+  margin: 48px;
+  width: 96%;
+  height: auto;
+  overflow-x: auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 560px;
+  height: 300px;
+  background: #b0e750;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.c02 {
+ background-color: #FCB921;
+}
+
+.c03 {
+ background-color: #9aace4;
+}
+
+.i01 {
+  background-color: #34df31;
+}
+
+.i02 {
+ background-color: #e08c8c;
+}
+
+.i03 {
+ background: #2d4cd5;
+}
+
+.img-wrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+.profile {
+  margin-top: 36px;
+}
+
+/* inputPage */
+
+.input-container {
+  width: 70%;
+  margin: 48px auto;
+}
+
+.input-wrap {
+  border: 1px solid #000;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-c-wrap {
+display: flex;
+flex-direction: column;
+
+}
+
+.img-select {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #ff9717;
+  margin: 36px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-select_text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.color-select {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.color-bar {
+  margin-top: 12px;
+  width: 400px;
+  height: 40px;
+  background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+}
+
+.input-wrap_r {
+  font-size: 24px;
+  margin-top: 80px;
+  margin-left: -120px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  width: 350px;
+}
+
+textarea {
+  width: 350px;
+  height: 100px;
+}
